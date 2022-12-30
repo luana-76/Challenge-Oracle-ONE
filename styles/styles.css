@@ -1,0 +1,154 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+
+}
+
+/* Para alinhar os elementos */
+
+#masterCarton{
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+/* alinhando a logo */
+
+#logo{margin: 0;}
+#logo img{margin: 40px 0 0 84px;}
+
+/* alinhamento do texto */
+
+#textField{margin: 80px 0 0 240px ;}
+
+#textField textarea{
+
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    color: #0A3871;
+    line-height: 150%;
+    width: 680px;
+    height: 288px;
+    border: none;
+    outline: none;
+    background: transparent;
+
+}
+
+button{
+
+    font-family: 'Inter';
+    font-size: 16px;
+    text-align: center;
+    /*width: 328px;*/
+    width: 47%;
+    height: 67px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* Mensagem de atenção */
+#buttons span{
+
+    font-size: 12px;
+    line-height: 18px;
+    display: block;
+    margin: 18px 0;
+
+}
+
+#buttons img{
+
+    margin-right: 8px;
+    vertical-align: middle;
+
+}
+
+#firstButton{
+
+    background: #0A3871;
+    color: #fff;
+    margin-right: 24px;
+
+}
+
+#secondButton{
+
+    background: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+
+}
+
+#textSection{
+
+    text-align: center;
+    width: 320px;
+    height: 540px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#textSection img{width: 270px;}
+
+#textSection h2{
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    margin: 20px 32px 0px 32px;
+
+}
+
+#textSection p{
+
+    font-size: 16px;
+    margin: 16px 32px 0px 28px;
+    color: #495057;
+    line-height: 150%;
+    /*margin: 16px 32px 0px 30px;*/
+
+}
+
+/* Parte criada no js */
+
+#copy{
+
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    background: transparent;
+    width: 83%;
+    height: 50px;
+    margin: 32px 8.9% 8.9% 8.9%;
+    position: relative;
+    top: 439px;
+    /*top: 370px;*/
+
+}
+
+#paragraphP{
+
+    word-break: break-all;
+    overflow:auto;
+    position:absolute;
+    width:20%;
+    height: 70%;
+    font-family: 'Inter', sans-serif;
+
+}

@@ -1,0 +1,153 @@
+/* Para que a logo fique alinhada com o resto do conteúdo */
+@media screen and (max-width:1200px) {#logo img {margin: 40px 0 0 16%;}}
+
+/* Mudando o tamanho da fonte <Dispositivos menores> */
+@media screen and (max-width:347px){#textSection h2 {font-size: 19px;}}
+
+/* Parte do espaçamento da caixa botão no padrão responsivo */
+@media screen and (min-width:938px) {#buttons {margin-left: 240px;}}
+
+/* Para permanecer no layout original em height maiores */
+@media screen and (min-height:1024px){#textField textarea{margin-top: 64px;margin-bottom: 50%;}}
+
+/* A base da responsividade */
+@media screen and (max-width:938px) {
+
+    /* Estilização do P criado no js */
+    #paragraphP{
+
+        width: 75%;
+        height: 73px;
+        margin-bottom: 0px;
+        margin-top: 24px;
+
+    }
+
+    /* Botão criando no js do <copiar> */
+    #copy{
+
+        position: relative;
+        top: 106px;
+        margin:0px 8.9%;
+        height: 45px;
+
+    }
+
+    /* Parte da caixa principal */
+    #masterCarton{flex-direction: column;}
+
+    /* Parte da stilização da logo */
+    #logo img{
+
+        margin:0;
+        position: absolute;
+        left: 40px;
+        right: 90.74%;
+        top: 6.25%;
+        bottom: 89.8%;
+
+    }
+
+    /* Caixa onde fica o texto */
+    #textField{margin: 240px 0 0 4%;}
+
+    /* Parte do texto */
+    #textField textarea{
+
+        width: 90vw;
+        height: 71vh;
+        margin-bottom: 0px;
+
+    }
+
+    /* Parte dos botões */
+
+    /* caixa */
+    #buttons{margin: 0 4% 64px 4%;}
+
+    /* Botões */
+    #buttons button{
+
+        height: 67px;
+        width: 48%;
+
+    }
+
+    /* Parte da conversão do texto*/
+
+    /* caixa da seção */
+    #textSection{
+
+        width: 92%;
+        height: 165px;
+        margin: 0 4% 40px 4%;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+
+    }
+
+    /* imagem da caixa */
+    #textSection img{display: none;}
+
+    #textSection h2{margin: 11px 32px 16px 32px;}
+    #textSection #paragraphP{margin: 24px 2% 0px 9%;}/*margin: 0px 2% 32px 4%;*/
+  
+}
+
+
+/* Retoque no tamanho dos botões */
+@media screen and (max-width:790px) {#buttons button {width: 47.5%;}}
+
+/* Retoque no alinhamento da caixa de converção de texto */
+@media screen and (max-width:756px) {#textSection {margin-top: 0px;}}
+
+
+@media screen and (max-width:666px) {
+
+    /* Ajustando a caixa do section da parte de converção */
+    #textSection{
+
+        height: 186px;
+        margin: 0px 0px 40px 4%;
+
+    }
+
+    /* Ajustando botões */
+    #buttons button {
+
+        width: 100%;
+        margin-right: 0;
+
+    }
+
+    /* Segundo botão */
+    #secondButton {margin: 24px 0 0 0;}
+
+    #copy{top:124px;}
+    #textSection p{margin: 21px 9% 0px 9%;}
+
+}
+
+@media screen and (max-width:571px) {
+
+    /* Logo */
+    #logo img{
+
+        position: static;
+        margin:24px 0 0 16px;
+        
+    }
+
+    /* Parte do texto */
+    #textField{margin-top: 152px}/*0 0 16px;*/
+
+    /* Parte do botão */
+    #buttons button{
+
+        width: 98%;
+        margin-right:0;
+
+    }
+
+    #secondButton{margin: 24px 0 0 0;}
+
+}

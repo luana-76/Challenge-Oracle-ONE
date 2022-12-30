@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href="styles/styles.css">
+    <link rel='stylesheet' href="styles/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="masterCarton">
+
+        <section>
+
+            <!-- Caixa da logo -->
+            <h1 id="logo"><img src="imagens/logo.png" alt="logo"></h1>
+
+            <!-- Parte onde o texto é digitado -->
+            <div id="textField"><textarea placeholder="Digite seu texto"></textarea></div>
+
+            <!-- Caixa dos botões -->
+            <div id="buttons">
+
+                <span><img src='imagens/alerta.png' alt='alert'/>Apenas letras minúsculas e sem acentos.</span>
+                <button id="firstButton">criptografar</button>
+                <button id="secondButton">Decriptografar</button>
+
+            </div>
+
+        </section>
+
+        <!-- Parte onde a converção de texto é exibida -->
+        <section id="textSection">
+
+            <div>
+
+                <img src="imagens/boneco.png" alt="boneco">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja
+                    criptografar ou decriptografar</p>
+
+            </div>
+            
+        </section>
+
+    </div>
+    <script src='js/config.js'></script>
+</body>
+</html>
